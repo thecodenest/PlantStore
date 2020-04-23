@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/pots_image"
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pot1" />
+
+    <TextView
+        android:id="@+id/pots_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/proximanovareg"
+        android:text="TextView"
+        android:textColor="#27394A"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/pots_image"
+        app:layout_constraintStart_toStartOf="@+id/pots_image"
+        app:layout_constraintTop_toBottomOf="@+id/pots_image" />
+</androidx.constraintlayout.widget.ConstraintLayout>
